@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(230, 169, 245);
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.parent-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.parent-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.background{
+    width: 200px;
+    min-height:150px;
+    background-color: white;
+    border: 1px solid blueviolet;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 139, 0.605);
+    
+    
+}
+
+.purple{
+    width: 100px;
+    min-height: 100px;
+    background-color: rgb(143, 83, 199);
+}
+.purple:hover{
+    transition: all 0.4s;
+}
+.gray{
+    width: 100px;
+    min-height: 100px;
+    background-color: rgb(146, 146, 146);
+}
+#box-1:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: rotate(45deg);
+}
+#box-2:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: scaley(0.7);
+}
+#box-3:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: scaleX(0.7);
+}
+#box-4:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: scale(2);
+}
+#box-5:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: scaleX(2);
+}
+#box-6:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: scaley(2);
+}
+#box-7:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: skewX(45deg);
+}
+#box-8:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: skewY(45deg);
+}
+#box-9:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: translate(50px,25px);
+}
+#box-10:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: translateX(50px);
+}
+#box-11:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: translateY(50px);
+}
+#box-12:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform:skewY(45deg) scale(2)
+    translate(25px,-25px);
+}
+#box-13:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform:
+    perspective(100px) 
+    rotateX(45deg);
+}
+#box-14:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: perspective(100px)
+    rotateY(45deg);
+}
+#box-15{
+    transform-origin: top right;
+}
+#box-15:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: rotate(45deg);
+}
+#box-16{
+    transform-origin: bottom left;
+}
+#box-16:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: rotate(45deg);
+}
+#box-17{
+    transform-origin: bottom;
+}
+#box-17:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: perspective(100px)
+    rotateX(20deg);
+}
+#box-18{
+    transform-origin: top;
+}
+#box-18:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: perspective(80px)
+    rotateX(20deg)
+    scaleX(1)
+    scaleY(0.6);
+}
+#box-19{
+    transform-origin: left;
+}
+#box-19:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: perspective(100px)
+    rotateY(20deg);
+}
+#box-20{
+    transform-origin: right;
+}
+#box-20:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: perspective(100px)
+    rotateY(40deg)
+    scaleX(0.6);
+}
+#box-21{
+    transform-origin: top right;
+}
+#box-21:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: scale(2);
+    
+}
+#box-22{
+    transform-origin: bottom left;
+}
+#box-22:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: scale(2);
+}
+#box-23{
+    transform-origin: right;
+}
+#box-23:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: scaleX(2);
+}
+#box-24{
+    transform-origin: left;
+}
+#box-24:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: scaleX(2);
+}
+#box-25{
+    transform-origin: top;
+}
+#box-25:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    
+    transform: scaley(2);
+}
+#box-26{
+    transform-origin: bottom;
+}
+#box-26:hover{
+    background-color: rgba(143, 83, 199, 0.849);
+    transform: scaley(2);
+}
+
